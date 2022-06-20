@@ -1,0 +1,22 @@
+###
+GET http://localhost:6003/countries?page=9&size=10
+Accept: application/json
+Content-Type: application/json
+
+
+###
+POST http://localhost:6003/countries/many?name=Senegal,Tunisia,South Africa,Ghana,Germany
+Accept: application/json
+Content-Type: application/json
+
+###
+POST http://localhost:6003/countries?name=Zimbabwe
+Accept: application/json
+Content-Type: application/json
+
+
+
+###
+GET http://localhost:6003/countries/search?keyword=bw
+Accept: application/json
+Content-Type: application/json
